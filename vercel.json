@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "buildCommand": "echo 'No build step required'",
+  "devCommand": "python3 -m http.server 3000",
+  "installCommand": "echo 'No dependencies to install'",
+  "outputDirectory": ".",
+  "framework": null,
+  "functions": {},
+  "rewrites": [
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "augment-tutorial",
+  "version": "1.0.0",
+  "description": "Augment 账号使用教程网站",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo '静态站点无需构建'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["augment", "tutorial", "vscode", "vercel"],
+  "author": "",
+  "license": "MIT"
+}
